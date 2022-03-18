@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{39515548-848C-4B37-93A8-8F64568153D9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alura.Estacionamento.Tests/PatioTeste.cs">
+    <Files>
+      <File FileName="Alura.Estacionamento.Tests/VeiculoTeste.cs" Line="17" Column="1" />
+      <File FileName="Alura.Estacionamento.Tests/PatioTeste.cs" Line="6" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Alura.Estacionamento" expanded="True">
+            <Node name="Alura.Estacionamento.Tests" expanded="True">
+              <Node name="PatioTeste.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Alura.Estacionamento" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Alura.Estacionamento PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

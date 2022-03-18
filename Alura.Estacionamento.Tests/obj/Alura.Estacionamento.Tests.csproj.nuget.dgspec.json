@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento.Tests/Alura.Estacionamento.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento.Tests/Alura.Estacionamento.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento.Tests/Alura.Estacionamento.Tests.csproj",
+        "projectName": "Alura.Estacionamento.Tests",
+        "projectPath": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento.Tests/Alura.Estacionamento.Tests.csproj",
+        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
+        "outputPath": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muriloribeiro/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/Alura.Estacionamento.csproj": {
+                "projectPath": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/Alura.Estacionamento.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/Alura.Estacionamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/Alura.Estacionamento.csproj",
+        "projectName": "Alura.Estacionamento",
+        "projectPath": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/Alura.Estacionamento.csproj",
+        "packagesPath": "/Users/muriloribeiro/.nuget/packages/",
+        "outputPath": "/Users/muriloribeiro/Documents/Projetos/Teste_uXnit/Alura.Estacionamento/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muriloribeiro/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
