@@ -88,11 +88,13 @@ namespace Alura.Estacionamento.Tests
             veiculo.Modelo = "Ferrari";
             estacionamento.RegistrarEntradaVeiculo(veiculo);
 
-            var veiculoAlterado = new Veiculo();
-            veiculoAlterado.Proprietario = "Murilove";
-            veiculo.Placa = "JKL-8888";
-            veiculo.Cor = "Preto";
-            veiculo.Modelo = "Ferrari";
+            var veiculoAlterado = new Veiculo
+            {
+                Proprietario = "Murilove",
+                Placa = "JKL-8888",
+                Cor = "Preto",
+                Modelo = "Ferrari"
+            };            
 
             //Act
             Veiculo alterado = estacionamento.AlteraDadosVeiculo(veiculoAlterado);
