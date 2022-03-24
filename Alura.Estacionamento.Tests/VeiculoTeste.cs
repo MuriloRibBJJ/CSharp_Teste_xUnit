@@ -6,15 +6,23 @@ using Xunit.Abstractions;
 
 namespace Alura.Estacionamento.Tests
 {
-    public class VeiculoTeste
+    public class VeiculoTeste : IDisposable
     {
+        private Veiculo veiculo = new Veiculo();
+        public ITestOutputHelper SaidaConsoleTeste;
 
-        [Fact(DisplayName = "Teste nº1")]
-        [Trait("Funcionalidade", "Acelerar")]
-        public void TestaVeiculoAcelerar()
+        public VeiculoTeste(ITestOutputHelper _saidaConsoleTeste)
+        {
+            SaidaConsoleTeste = _saidaConsoleTeste;
+            SaidaConsoleTeste.WriteLine("Construtor invocado.");
+            veiculo = new Veiculo();
+        }
+
+        [Fact]        
+        public void TestaVeiculoAcelerarComParametro10()
         {
             //Arrange
-            var veiculo = new Veiculo();
+            //var veiculo = new Veiculo();
 
             //Act
             veiculo.Acelerar(10);
@@ -24,12 +32,11 @@ namespace Alura.Estacionamento.Tests
 
         }
 
-        [Fact(DisplayName = "Teste n�2")]
-        [Trait("Funcionalidade", "Frear")]
-        public void TestaVeiculoFrear()
+        [Fact]        
+        public void TestaVeiculoFrearComParamentro10()
         {
             //Arrange
-            var veiculo = new Veiculo();
+            //var veiculo = new Veiculo();
 
             //Act
             veiculo.Frear(10);
@@ -37,41 +44,15 @@ namespace Alura.Estacionamento.Tests
             Assert.Equal(-150, veiculo.VelocidadeAtual);
         }
 
-        [Fact(DisplayName = "Teste nº3",Skip = "Teste ainda não implementado. Ignorar!")]
-        public void ValidaNomeProprietario()
+        [Fact(Skip = "Teste ainda não implementado. Ignorar!")]
+        public void ValidaNomeProprietarioDoVeiculo()
         {
 
         }
+        
 
         [Fact]
-        public void AlterarDadosVeiculo()
-        {
-            //Arrange
-
-            Patio estacionamento = new Patio();
-            var veiculo = new Veiculo();
-            veiculo.Proprietario = "Jos� Silva";
-            veiculo.Placa = "ZXC-8524";
-            veiculo.Cor = "Verde";
-            veiculo.Modelo = "Opala";
-            estacionamento.RegistrarEntradaVeiculo(veiculo);
-
-            var veiculoAlterado = new Veiculo();
-            veiculoAlterado.Proprietario = "Jos� Silva";
-            veiculoAlterado.Placa = "ZXC-8524";
-            veiculoAlterado.Cor = "Preto"; //Alterado
-            veiculoAlterado.Modelo = "Opala";
-
-            //Act
-            var alterado = estacionamento.AlteraDadosVeiculo(veiculoAlterado);
-
-            //Assert
-            Assert.Equal(alterado.Cor, veiculoAlterado.Cor);
-
-        }
-
-        [Fact]
-        public void DadosVeiculo()
+        public void FichaDeInfoDoVeiculo()
         {
             //Arrange
             var veiculo = new Veiculo
@@ -88,6 +69,11 @@ namespace Alura.Estacionamento.Tests
 
             //Assert
             Assert.Contains("Ficha do Veículo", dadosVeiculo);
+        }
+
+        public void Dispose()
+        {
+            SaidaConsoleTeste.WriteLine("Dispose invocado.");
         }
     }
 }
