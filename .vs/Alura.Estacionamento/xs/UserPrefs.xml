@@ -1,31 +1,27 @@
 ﻿<Properties StartupConfiguration="{39515548-848C-4B37-93A8-8F64568153D9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Alura.Estacionamento/Alura.Estacionamento.Modelos/Veiculo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alura.Estacionamento.Tests/VeiculoTeste.cs">
     <Files>
-      <File FileName="Alura.Estacionamento.Tests/VeiculoTeste.cs" Line="87" Column="47" IsPinned="True" />
-      <File FileName="Alura.Estacionamento.Tests/PatioTeste.cs" Line="92" Column="14" />
-      <File FileName="Alura.Estacionamento/Alura.Estacionamento.Modelos/Patio.cs" Line="98" Column="32" />
-      <File FileName="Alura.Estacionamento/Alura.Estacionamento.Modelos/Veiculo.cs" Line="110" Column="41" />
+      <File FileName="Alura.Estacionamento.Tests/VeiculoTeste.cs" Line="84" Column="13" IsPinned="True" />
+      <File FileName="Alura.Estacionamento.Tests/PatioTeste.cs" />
+      <File FileName="Alura.Estacionamento/Alura.Estacionamento.Modelos/Patio.cs" />
+      <File FileName="Alura.Estacionamento/Alura.Estacionamento.Modelos/Veiculo.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Alura.Estacionamento" expanded="True">
             <Node name="Alura.Estacionamento" expanded="True">
-              <Node name="Alura.Estacionamento.Modelos" expanded="True">
-                <Node name="Veiculo.cs" selected="True" />
-              </Node>
+              <Node name="Alura.Estacionamento.Modelos" expanded="True" />
             </Node>
-            <Node name="Alura.Estacionamento.Tests" expanded="True" />
+            <Node name="Alura.Estacionamento.Tests" expanded="True">
+              <Node name="VeiculoTeste.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Alura.Estacionamento" expanded="True" selected="True">
-            <Node name="Alura.Estacionamento.Tests" expanded="True">
-              <Node name="Alura.Estacionamento.Tests" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Alura.Estacionamento" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

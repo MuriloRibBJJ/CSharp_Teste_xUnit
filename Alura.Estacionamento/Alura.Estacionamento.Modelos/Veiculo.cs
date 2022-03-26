@@ -7,12 +7,16 @@ namespace Alura.Estacionamento.Modelos
 {
     public class Veiculo
     {
-        //Campos 
+        //Campos      
         private string _placa;
-        private string _proprietario;        
+        private string _proprietario;
         private TipoVeiculo _tipo;
+        private string _ticket;
 
         //Propriedades
+        public string IdTicket { get; set; }
+        public string Ticket { get { return _ticket; } set { _ticket = value; } }
+
         public string Placa
         {
             get
